@@ -21,3 +21,5 @@ from myModule import name, sum
 
 print(name)
 print(sum(5, 13))
+
+# Nottee--> yeh Modules h or jo file h vo same location per honi chiye
