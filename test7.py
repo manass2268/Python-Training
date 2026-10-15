@@ -20,7 +20,7 @@ for product in prDetails:
         print(str(value).center(20),end=" ")"""
 
 # ==================================2
-prDetails = [
+'''prDetails = [
     {"proId": 101, "proName": "Hero", "proPrice": 20},
     {"proId": 102, "proName": "Master", "proPrice": 40},
     {"proId": 103, "proName": "Cobeter", "proPrice": 30},
@@ -38,3 +38,18 @@ prDetails = [
 
 FilterPr = filter(lambda ele: ele["proPrice"] == 20, prDetails)
 print(list(FilterPr))
+'''
+
+#=======================
+prDetails = [
+    {"proId": 101, "proName": "Hero", "proPrice": 20},
+    {"proId": 102, "proName": "Master", "proPrice": 40},
+    {"proId": 103, "proName": "Cobeter", "proPrice": 30},
+    {"proId": 104, "proName": "System", "proPrice": 20},
+    {"proId": 105, "proName": "Refelex", "proPrice": 80},
+    {"proId": 106, "proName": "Supper", "proPrice": 70},
+]
+def myfun():
+    retrun ele['proPrice']
+    
+    
