@@ -30,10 +30,11 @@ prDetails = [
 ]
 
 
-def myfun(ele):
-    return ele["proPrice"] == 20
+# def myfun(ele):
+#     return ele["proPrice"] == 20
+# FilterPr = filter(myfun, prDetails)
 
+# or Lambda Function
 
-# FilterPr=filter(myfun,prDetails)
 FilterPr = filter(lambda ele: ele["proPrice"] == 20, prDetails)
 print(list(FilterPr))
