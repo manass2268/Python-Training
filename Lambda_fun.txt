@@ -1,0 +1,18 @@
+"""
+Lambda Fucntion
+In case you wish to make your fucntions more concise,easy to write and read , you can create Lambda fucntion.
+Anonymous Lambda Fucntion can be defined using the keyword lambda.
+
+However there are few constraints, that you need to follow:
+
+They are syntactically restricted to a single expression(i.e. they are one-line fucntion)
+Lambdafucntion cannot contain commands,and they cannot contain more than one expression
+Lambda fucntion can take any number of argument (include optional arguments) and returns the value of sinlge expression
+"""
+
+'''expression gives a resultend ValueError where as statement doesn't'''
+
+'''Syntax of Lambda Fucntion
+lambda arguments : expression'''
+
+                       

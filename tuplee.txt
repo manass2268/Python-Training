@@ -1,0 +1,22 @@
+Tuple is a immutable object. a tuple can not be changed in any way once it is created.
+
+A tuple is defined in the same way as a object except that the whole set of elements are enclosed in parenthesis() instead of square bracket[]
+
+
+agr single value ko tuple banna h toh uske baad comma(,) lgagna hota h 
+for expm. tup=(1,) ==> <class>'tuple'
+ tup=(1)  ==> <class>'int'
+ always it created as a expression on this '
+
+Important
+	  
+Tuple can have any number of items and they may be of different types (int,float,list,string,etc)
+a tuple can also be created without using parenthesis. this is known as tuple packing
+==> tup=1,2,3
+==> print(tup) #opt- (1,2,3)
+
+3. Tuple unpacking is also possible
+==> a,b,c=tup
+==> print(a)  #1
+==> print(b)  #2
+==> print(c)  #3
