@@ -82,11 +82,20 @@ print(Alpha)
 """
 # ///////////////////////////////////////////////////////////////
 # Problem STAMNT
+import string as s
 
-lower = "qwertyuiopasdfghjklzxcvbnm"
-upper = "QWERTYUIOPASDFGHJKLZXCVBNM"
-digits = "0123456789"
+# lower = "qwertyuiopasdfghjklzxcvbnm"
+lower = s.ascii_lowercase
+print(lower)
+# upper = "QWERTYUIOPASDFGHJKLZXCVBNM"
+upper = s.ascii_uppercase
+print(upper)
+digits = s.digits
+print(digits)
+# digits = "0123456789"
 
+lowerUpper = s.ascii_letters
+print(lowerUpper)
 str = list(lower) + list(upper) + list(digits)
 r.shuffle(str)
 
