@@ -72,3 +72,9 @@ print(r.sample(Alpha, k=2))
 
 # ==========
 # Shuflee method takes a sequence of list and reoragninse the order of the items
+
+Alpha = ["A", "B", "C", "D"]
+
+print(Alpha)
+r.shuffle(Alpha)
+print(Alpha)
