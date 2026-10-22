@@ -90,4 +90,5 @@ digits = "0123456789"
 str = list(lower) + list(upper) + list(digits)
 r.shuffle(str)
 
-print(str)
+b = r.sample(str, k=6)
+print("".join(b))
