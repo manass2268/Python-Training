@@ -86,3 +86,8 @@ print(Alpha)
 lower = "qwertyuiopasdfghjklzxcvbnm"
 upper = "QWERTYUIOPASDFGHJKLZXCVBNM"
 digits = "0123456789"
+
+str = list(lower) + list(upper) + list(digits)
+r.shuffle(str)
+
+print(str)
