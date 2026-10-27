@@ -26,3 +26,20 @@ ex. list,tuple,string,set, dictornary
 5. When a generator function is called, it returns a generator object, which can be iterated over using the next() function or a for loop.
 6. When the generator function is called, it does not execute the function body immediately. Instead , it returns a generator object that can be used to iterate over the values produced by the function. 
 """
+
+"""
+def fun(n):
+    #intilaise the counter
+    value=0
+    #loop until counter is less than n
+    while value < n:
+        #produce the current value of the counter
+        yield value
+        #increment the counter
+        value+=1
+
+#iterate over the generator object produce by the fun() function
+for i in fun(5):
+    #print each value produced by the generator
+    print(i,end=" ") #0 1 2 3 4
+"""
