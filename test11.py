@@ -43,3 +43,19 @@ for i in fun(5):
     #print each value produced by the generator
     print(i,end=" ") #0 1 2 3 4
 """
+
+
+def fun(n):
+    value = 0
+
+    while True:
+        yield value
+        value += 1
+
+
+i = fun()
+
+for ele in i:
+    if ele == 50:
+        break
+    print(ele, end=" ")  # 0 1 2 3 4
