@@ -28,3 +28,13 @@ print(flat)
 # mat=[[1,2],[4,5],[7,9]] 
 flat=[[j for j in range(5)] for i in range(3)]
 print(flat)"""
+
+"""
+# if else or for loop with range and list compherenstion
+
+#l=["Even number" if i%2==0 else "Odd Number" for i in range(10)]
+
+#l=["Even number "+str(i) if i%2==0 else "Odd Number "+str(i) for i in range(10)]
+l=[f"Even number {i}" if i%2==0 else f"Odd Number {i}" for i in range(10)]
+print(l)
+"""
