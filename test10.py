@@ -38,3 +38,12 @@ print(flat)"""
 l=[f"Even number {i}" if i%2==0 else f"Odd Number {i}" for i in range(10)]
 print(l)
 """
+
+# ===================================Dictionary Comprehension=======================================
+
+"""
+#s={ele:ele**2 for ele in range(10)}
+s={f"Key{ele}":ele**2 for ele in range(10)}
+print(s)
+"""
+Pr = {}
